@@ -5,26 +5,27 @@ often every word appears and quotes where each word appears in the text.
 The program takes in a text file containing English text
 and produces a list of all words by alphabetic order with the word line number.
 
-The language used: ##Java
+The language used: ## Java
 
-##Run Instructions: 
+## Run Instructions: 
 In the package, there are two files. one for the input file and the other for the output.
 For changing the text input, edit the file 'input.txt'.
 
-##Logic: The high-level logic of the program is based on the use of a filter reader
+## Logic:
+The high-level logic of the program is based on the use of a filter reader
 class to parse the text, and store words in a Red-Black Tree along with other details.
 
 The structure, as we can see in the "Red-black Tree diagram" file, is  Red-Black Tree containing LinkedList of line-number.
 Any RBTNode containing - LinkedList of data and 3 RBTNode - 'parent', 'left' and 'right' child.
 Any LinkedList containing - 'word' and SinglyLinkedList - 'head' and 'tail'.
 
-##Complexity:
+## Complexity:
 Filling the tree takes O(nlg(n)) - 
 O(n) to run through all the words in the text file, 
 and O(lg(n)) to store \ search \ other operation of RB-Tree.
 ** 'n' is the number of words in the text. **
 
-#Pseudo code:
+# Pseudo code:
 
 Concordance() {
 	while ( hasNext() ) {				 // Run through any word in the textFile {O(n)}.
@@ -50,7 +51,7 @@ insert( String, int ) {
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 
-###Example of output on THIS README file:
+### Example of output on THIS README file:
 
 add {1 time} 42
 algorithm {1 time} 50
