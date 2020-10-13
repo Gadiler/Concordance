@@ -27,15 +27,18 @@ For changing the text input, edit the file `inputText.txt`.
 The high-level logic of the program is based on the use of a filter reader
 class to parse the text, and store words in the data structures along with other details.
 
+---
+
 ### RBTree Structure:
 The structure, as we can see in the [Red-black Tree diagram](https://github.com/Gadiler/Concordance/blob/main/src/RBTreePackage/Red-Black%20Tree%20diagram.pdf) file, 
 is Red-Black Tree containing LinkedList of line-number.
 
 Any RBTNode containing:
+* color: 1 - red, 0 - black.
 * RBTNode: `parent`, `left` and `right` child.
 * LinkedList of data.
 	* inner LinkedList containing:
-		* data: `word` 
+		* data: `word`
 		* Node-> `head` and `tail`
 			- inner Node containing:
 				- data: `line`
@@ -71,7 +74,8 @@ Any SLL containing:
 	* O(n) to store \ search on SL-List.
 ##### 'n' - number of words in the text.
 	
----	
+---
+
 ## Pseudo code:
 ```java
 Concordance() {
@@ -87,8 +91,8 @@ Concordance() {
 insert( String, int ) {
 
 	temp = searchWord( word );  			// If null - not exist, create new Node with the word and insert.
-	
-	if ( temp == null ) {				// else - add the lineNum to the tail of the LinkedList.
+							// else - add the lineNum to the tail of the LinkedList.
+	if ( temp == null ) {				
 		temp = new RBTNode;	
 	}else {
 		while ( !rightPlace ) {			// Run till the right place for the new RBTNode \ SLLNode.
@@ -100,6 +104,7 @@ insert( String, int ) {
 }
 ```
 ---
+
 ### Example of output on THIS README file:
 
 - add {1 time} 91
