@@ -7,7 +7,7 @@ and produces a list of all words by alphabetic order with the word line number.
 
 The language used: **Java**
 
-## introduction:
+## Introduction:
 There are 2 data structures.
 1. Red-Black Tree.
 2. Singly Linked List.
@@ -83,12 +83,12 @@ Concordance() {
 	while ( hasNext() ) {				// Run through any word in the textFile {O(n)}.
 		while ( whiteSpace ) { skip }
 		if  ( word.length > 2 && word != "the" ) 
-			insert( word, lineNumber );	// O(lg(n)) -> RBT \ O(n) -> SLL
+			Insert( word, lineNumber );	// O(lg(n)) -> RBT \ O(n) -> SLL
 	} 						// End of loop.
 	display();					// O(n)
 }
 
-insert( String, int ) {
+Insert( String, int ) {
 
 	temp = searchWord( word );  			// If null - not exist, create new Node with the word and insert.
 							// else - add the lineNum to the tail of the LinkedList.
