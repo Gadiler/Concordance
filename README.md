@@ -7,6 +7,14 @@ and produces a list of all words by alphabetic order with the word line number.
 
 The language used: **Java**
 
+- [Introduction](https://github.com/Gadiler/Concordance/blob/main/README.md#introduction)
+- [Run Instructions](https://github.com/Gadiler/Concordance/blob/main/README.md#run-instructions)
+- [Logic](https://github.com/Gadiler/Concordance/blob/main/README.md#logic)
+	- [RBTree Structure](https://github.com/Gadiler/Concordance/blob/main/README.md#rbtree-structure)
+	- [SLL Structure](https://github.com/Gadiler/Concordance/blob/main/README.md#sll-structure)
+- [Pseudo code](https://github.com/Gadiler/Concordance/blob/main/README.md#pseudo-code)
+- [Example](https://github.com/Gadiler/Concordance/blob/main/README.md#example-of-output-on-this-readme-file)
+
 ## Introduction:
 There are 2 data structures.
 1. Red-Black Tree.
