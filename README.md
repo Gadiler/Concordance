@@ -1,15 +1,15 @@
 # Concordance
 A "concordance" is an alphabetical list of the words present in a text with a count of how 
-often every word appears and quotes where each word appears in the text.
+often every word appears and quotes where each word appears in the text. to [read more.](https://en.wikipedia.org/wiki/Concordance)
 
 The program takes in a text file containing English text
 and produces a list of all words by alphabetic order with the word line number.
 
-The language used: Java
+The language used: **Java**
 
 ## Run Instructions: 
 In the package, there are two files. one for the input file and the other for the output.
-For changing the text input, edit the file 'input.txt'.
+For changing the text input, edit the file 'inputText.txt'.
 
 ## Logic:
 The high-level logic of the program is based on the use of a filter reader
@@ -23,11 +23,11 @@ Any LinkedList containing - 'word' and SinglyLinkedList - 'head' and 'tail'.
 Filling the tree takes O(nlg(n)) - 
 O(n) to run through all the words in the text file, 
 and O(lg(n)) to store \ search \ other operation of RB-Tree.
-** 'n' is the number of words in the text. **
+**'n' is the number of words in the text.**
 
 # Pseudo code:
-
-#### Concordance() {
+```java
+Concordance() {
 
 	while ( hasNext() ) {				// Run through any word in the textFile {O(n)}.
 		while ( whiteSpace ) { skip }
@@ -37,11 +37,11 @@ and O(lg(n)) to store \ search \ other operation of RB-Tree.
 	display();					// O(n)
 }
 
-#### insert( String, int ) {
+insert( String, int ) {
 
 	temp = searchWord( word );  			// If null - not exist, create new Node with the word and insert.
 	
-	if( temp == null ) {				// else - add the lineNum to the tail of the LinkedList. {O(lg(n))}
+	if ( temp == null ) {				// else - add the lineNum to the tail of the LinkedList. {O(lg(n))}
 		temp = new RBTNode;	
 	}else {
 		while ( !rightPlace ) {			// Run till the right place for the new RBTNode.
@@ -51,8 +51,8 @@ and O(lg(n)) to store \ search \ other operation of RB-Tree.
 	}
 	fixInsert(); 					// Fix the insertion by the Red-Black Tree algorithm. 
 }
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+```
+---	
 
 ### Example of output on THIS README file:
 
