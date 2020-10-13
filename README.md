@@ -17,7 +17,10 @@ Any thread have his own anonymous inner class `run` with creating a relevant con
 
 
 ## Run Instructions: 
-In the package, there are two files. one for the input file and the other for the output.
+* In the package, there are two files. 
+	* input text file.
+	* output text file.
+	
 For changing the text input, edit the file `inputText.txt`.
 
 ## Logic:
@@ -27,6 +30,7 @@ class to parse the text, and store words in the data structures along with other
 ### RBTree Structure:
 The structure, as we can see in the [Red-black Tree diagram](https://github.com/Gadiler/Concordance/blob/main/src/RBTreePackage/Red-Black%20Tree%20diagram.pdf) file, 
 is Red-Black Tree containing LinkedList of line-number.
+
 Any RBTNode containing:
 * LinkedList of data
 * RBTNode: `parent`, `left` and `right` child.
@@ -34,26 +38,33 @@ Any RBTNode containing:
 	* data-> `word` 
 	* SinglyLinkedList-> `head` and `tail`.
 
-## Complexity:
+#### RBT Complexity:
 * Filling the tree takes O(nlg(n)) 
 	* O(n) to run through all the words in the text file.
 	* O(lg(n)) to store \ search \ other operation of RB-Tree.
-	* **'n' is the number of words in the text.**
+##### n' is the number of words in the text.
 
 
 
 ### SLList Structure:
 The data structure, as we can see in the [Singly-Linked-List diagram](https://github.com/Gadiler/Concordance/blob/main/src/linkedListPackage/Linked%20List%20diagram.pdf) file,
 is Singly Linked-List contining Linked-List of line-number.
+
 Any SLL containing:
-- LinkedList-> data: `Head` \ `Tail`.
+- LinkedList-> data: `Head` \ `Tail`; reference to the first \ last SSL.
 - `Size` -> number of words.
 * inner SLL containing:
 	* LinkedList-> data: `word` 
-	* LinkedList-> `Head` \ `Tail`: reference to the first\last node.
+	* LinkedList-> `Head` \ `Tail`; reference to the first \ last node.
+	
+#### SLL Complexity:
+* Filling the tree takes O(n^2) 
+	* O(n) to run through all the words in the text file.
+	* O(n) to store \ search on SL-List.
+	* **'n' is the number of words in the text.**
 	
 ---	
-# Pseudo code:
+## Pseudo code:
 ```java
 Concordance() {
 
@@ -95,18 +106,15 @@ insert( String, int ) {
 - appears {2 times} 3, 3
 - are {2 times} 11, 20
 - based {1 time} 24
-- Bible {1 time} 3
-- Black {5 times} 12, 28, 28, 29, 80
-- blob {2 times} 28, 46
+- Black {4 times} 12, 28, 29, 80
 - can {2 times} 28, 46
 - changing {1 time} 21
 - check {1 time} 15
 - child {1 time} 33
 - class {2 times} 16, 25
 - code {1 time} 57
-- com {2 times} 28, 46
 - Complexity {1 time} 38
-- Concordance {7 times} 2, 2, 5, 19, 28, 46, 60
+- Concordance {4 times} 2, 2, 19, 60
 - containing {6 times} 5, 29, 31, 34, 49, 52
 - contining {1 time} 47
 - count {1 time} 2
@@ -114,7 +122,7 @@ insert( String, int ) {
 - creating {1 time} 16
 - data {9 times} 11, 15, 25, 32, 34, 46, 49, 52, 80
 - details {1 time} 27
-- diagram {4 times} 28, 28, 46, 46
+- diagram {1 time} 28
 - display {1 time} 65
 - each {1 time} 3
 - edit {1 time} 21
@@ -133,8 +141,6 @@ insert( String, int ) {
 - fixInsert {1 time} 80
 - for {4 times} 20, 20, 21, 75
 - function {1 time} 15
-- Gadiler {2 times} 28, 46
-- github {2 times} 28, 46
 - greater {2 times} 76, 77
 - hasNext {1 time} 60
 - have {1 time} 16
@@ -142,12 +148,10 @@ insert( String, int ) {
 - high {1 time} 24
 - his {1 time} 16
 - how {1 time} 3
-- https {3 times} 3, 28, 46
-- inaert {1 time} 78
 - inner {3 times} 16, 33, 51
 - input {2 times} 20, 21
 - inputText {1 time} 21
-- insert {3 times} 63, 68, 72
+- insert {4 times} 63, 68, 72, 78
 - insertion {1 time} 80
 - Instructions {1 time} 20
 - int {1 time} 70
@@ -161,14 +165,13 @@ insert( String, int ) {
 - line {3 times} 6, 29, 47
 - lineNum {1 time} 72
 - lineNumber {1 time} 63
-- Linked {5 times} 13, 46, 46, 47, 47
+- Linked {3 times} 13, 47, 47
 - LinkedList {7 times} 29, 31, 33, 49, 52, 53, 72
-- linkedListPackage {1 time} 46
-- list {7 times} 2, 6, 15, 46, 46, 47, 47
+- list {5 times} 2, 6, 15, 47, 47
 - Logic {2 times} 24, 24
 - loop {1 time} 65
-- main {3 times} 15, 28, 46
-- more {1 time} 3
+- main {1 time} 15
+- more {1 time} 5
 - new {3 times} 70, 73, 75
 - next {7 times} 76, 76, 76, 77, 77, 77, 80
 - nlg {1 time} 38
@@ -181,16 +184,13 @@ insert( String, int ) {
 - only {1 time} 80
 - operation {1 time} 40
 - order {1 time} 6
-- org {1 time} 3
 - other {3 times} 20, 25, 40
-- otherwiae {1 time} 77
-- otherwise {1 time} 76
+- otherwise {2 times} 76, 77
 - output {1 time} 21
 - own {1 time} 16
 - package {1 time} 20
 - parent {1 time} 32
 - parse {1 time} 25
-- pdf {2 times} 28, 46
 - place {1 time} 75
 - present {1 time} 2
 - produces {1 time} 6
@@ -199,10 +199,9 @@ insert( String, int ) {
 - quotes {1 time} 3
 - RBTNode {4 times} 30, 32, 74, 75
 - RBTree {3 times} 27, 76, 80
-- RBTreePackage {1 time} 28
 - read {1 time} 3
 - reader {1 time} 25
-- Red {5 times} 12, 28, 28, 29, 80
+- Red {4 times} 12, 28, 29, 80
 - reference {1 time} 53
 - relevant {1 time} 16
 - right {3 times} 32, 75, 76
@@ -212,14 +211,13 @@ insert( String, int ) {
 - search {1 time} 40
 - searchWord {1 time} 70
 - see {2 times} 28, 46
-- Singly {3 times} 13, 46, 47
+- Singly {2 times} 13, 47
 - SinglyLinkedList {1 time} 35
 - Size {1 time} 50
 - skip {1 time} 62
 - SLL {2 times} 48, 51
 - SLList {2 times} 45, 77
 - SLLNode {1 time} 76
-- src {2 times} 28, 46
 - store {2 times} 25, 40
 - String {1 time} 68
 - Structure {5 times} 28, 28, 46, 46, 82
@@ -235,7 +233,7 @@ insert( String, int ) {
 - threads {1 time} 15
 - through {2 times} 39, 60
 - till {1 time} 75
-- Tree {7 times} 13, 28, 28, 29, 38, 41, 80
+- Tree {6 times} 13, 28, 29, 38, 41, 80
 - two {2 times} 15, 20
 - txt {1 time} 23
 - use {1 time} 24
@@ -244,8 +242,6 @@ insert( String, int ) {
 - where {1 time} 3
 - while {3 times} 60, 61, 75
 - whiteSpace {1 time} 61
-- wiki {1 time} 3
-- wikipedia {1 time} 3
 - with {5 times} 2, 6, 16, 25, 70
 - word {11 times} 3, 3, 6, 35, 53, 60, 62, 62, 63, 70, 70
 - words {6 times} 2, 6, 25, 39, 41, 51
