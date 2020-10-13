@@ -27,7 +27,7 @@ and O(lg(n)) to store \ search \ other operation of RB-Tree.
 
 # Pseudo code:
 
-Concordance() {
+#### Concordance() {
 
 	while ( hasNext() ) {				// Run through any word in the textFile {O(n)}.
 		while ( whiteSpace ) { skip }
@@ -38,7 +38,7 @@ Concordance() {
   
 }
 
-insert( String, int ) {
+#### insert( String, int ) {
 
 	temp = searchWord( word );  			// If null - not exist, create new Node with the word and insert.
 	
