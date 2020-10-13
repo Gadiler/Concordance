@@ -29,7 +29,7 @@ and O(lg(n)) to store \ search \ other operation of RB-Tree.
 
 Concordance() {
 
-	while ( hasNext() ) {				 // Run through any word in the textFile {O(n)}.
+	while ( hasNext() ) {				// Run through any word in the textFile {O(n)}.
 		while ( whiteSpace ) { skip }
 		if  ( word.length > 2 && word != "the" ) 
 			insert( word, lineNumber );	// O(lg(n))
@@ -40,17 +40,17 @@ Concordance() {
 
 insert( String, int ) {
 
-	temp = searchWord( word );  		// If null - not exist, create new Node with the word and insert.
+	temp = searchWord( word );  			// If null - not exist, create new Node with the word and insert.
 	
 	if( temp == null ) {				// else - add the lineNum to the tail of the LinkedList. {O(lg(n))}
-		temp = new RBTNode;
+		temp = new RBTNode;	
 	}else {
-		while ( !rightPlace ) {		// Run till the right place for the new RBTNode.
-			root = root.next;	// If greater than, next = right. otherwise next = left.
+		while ( !rightPlace ) {			// Run till the right place for the new RBTNode.
+			root = root.next;		// If greater than, next = right. otherwise next = left.
 		}		
 		temp = root.next;
 	}
-	fixInsert(); 				// Fix the insertion by the Red-Black Tree algorithm.
+	fixInsert(); 					// Fix the insertion by the Red-Black Tree algorithm.
   
 }
 
