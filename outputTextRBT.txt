@@ -1,0 +1,151 @@
+add {1 time} 72
+algorithm {1 time} 80
+all {2 times} 6, 39
+along {1 time} 25
+alphabetic {1 time} 6
+alphabetical {1 time} 2
+and {7 times} 3, 6, 20, 25, 32, 35, 70
+anonymous {1 time} 16
+Any {4 times} 16, 30, 48, 60
+appears {2 times} 3, 3
+are {2 times} 11, 20
+based {1 time} 24
+Black {4 times} 12, 28, 29, 80
+can {2 times} 28, 46
+changing {1 time} 21
+check {1 time} 15
+child {1 time} 33
+class {2 times} 16, 25
+code {1 time} 57
+Complexity {1 time} 38
+Concordance {4 times} 2, 2, 19, 60
+containing {6 times} 5, 29, 31, 34, 49, 52
+contining {1 time} 47
+count {1 time} 2
+create {2 times} 15, 70
+creating {1 time} 16
+data {9 times} 11, 15, 25, 32, 34, 46, 49, 52, 80
+details {1 time} 27
+diagram {1 time} 28
+display {1 time} 65
+each {1 time} 3
+edit {1 time} 21
+else {2 times} 72, 75
+End {1 time} 64
+English {1 time} 5
+every {1 time} 3
+exist {1 time} 70
+faster {1 time} 16
+file {6 times} 5, 20, 21, 29, 40, 47
+files {1 time} 20
+Filling {1 time} 38
+filter {1 time} 24
+first {1 time} 53
+Fix {1 time} 80
+fixInsert {1 time} 80
+for {4 times} 20, 20, 21, 75
+function {1 time} 15
+greater {2 times} 76, 77
+hasNext {1 time} 60
+have {1 time} 16
+head {3 times} 35, 49, 53
+high {1 time} 24
+his {1 time} 16
+how {1 time} 3
+inner {3 times} 16, 33, 51
+input {2 times} 20, 21
+inputText {1 time} 21
+insert {4 times} 63, 68, 72, 78
+insertion {1 time} 80
+Instructions {1 time} 20
+int {1 time} 70
+introduction {1 time} 11
+Java {2 times} 10, 58
+language {1 time} 8
+last {1 time} 53
+left {2 times} 32, 77
+length {1 time} 62
+level {1 time} 24
+line {3 times} 6, 29, 47
+lineNum {1 time} 72
+lineNumber {1 time} 63
+Linked {3 times} 13, 47, 47
+LinkedList {7 times} 29, 31, 33, 49, 52, 53, 72
+list {5 times} 2, 6, 15, 47, 47
+Logic {2 times} 24, 24
+loop {1 time} 65
+main {1 time} 15
+more {1 time} 5
+new {3 times} 70, 73, 75
+next {7 times} 76, 76, 76, 77, 77, 77, 80
+nlg {1 time} 38
+node {2 times} 56, 70
+not {1 time} 70
+null {2 times} 70, 72
+number {5 times} 8, 30, 41, 48, 50
+often {1 time} 3
+one {1 time} 20
+only {1 time} 80
+operation {1 time} 40
+order {1 time} 6
+other {3 times} 20, 25, 40
+otherwise {2 times} 76, 77
+output {1 time} 21
+own {1 time} 16
+package {1 time} 20
+parent {1 time} 32
+parse {1 time} 25
+place {1 time} 75
+present {1 time} 2
+produces {1 time} 6
+program {2 times} 5, 24
+Pseudo {1 time} 56
+quotes {1 time} 3
+RBTNode {4 times} 30, 32, 74, 75
+RBTree {3 times} 27, 76, 80
+read {1 time} 3
+reader {1 time} 25
+Red {4 times} 12, 28, 29, 80
+reference {1 time} 53
+relevant {1 time} 16
+right {3 times} 32, 75, 76
+rightPlace {1 time} 75
+root {3 times} 76, 76, 78
+run {5 times} 16, 19, 39, 60, 75
+search {1 time} 40
+searchWord {1 time} 70
+see {2 times} 28, 46
+Singly {2 times} 13, 47
+SinglyLinkedList {1 time} 35
+Size {1 time} 50
+skip {1 time} 62
+SLL {2 times} 48, 51
+SLList {2 times} 45, 77
+SLLNode {1 time} 76
+store {2 times} 25, 40
+String {1 time} 68
+Structure {5 times} 28, 28, 46, 46, 82
+structures {2 times} 12, 25
+tail {4 times} 37, 50, 53, 72
+takes {2 times} 5, 38
+temp {4 times} 70, 72, 73, 78
+text {8 times} 2, 3, 5, 6, 21, 25, 39, 45
+textFile {1 time} 60
+than {2 times} 76, 77
+There {2 times} 11, 20
+thread {1 time} 16
+threads {1 time} 15
+through {2 times} 39, 60
+till {1 time} 75
+Tree {6 times} 13, 28, 29, 38, 41, 80
+two {2 times} 15, 20
+txt {1 time} 23
+use {1 time} 24
+used {1 time} 8
+what {1 time} 15
+where {1 time} 3
+while {3 times} 60, 61, 75
+whiteSpace {1 time} 61
+with {5 times} 2, 6, 16, 25, 70
+word {11 times} 3, 3, 6, 35, 53, 60, 62, 62, 63, 70, 70
+words {6 times} 2, 6, 25, 39, 41, 51

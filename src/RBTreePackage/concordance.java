@@ -9,7 +9,6 @@ public class concordance {
 	static PrintWriter out; // Output stream for writing the output file.
 
 	static long startTime = System.currentTimeMillis();
-	@SuppressWarnings("unchecked")
 	static RedBlackTree index0 = new RedBlackTree(new AlphabeticalOrder());
 
 	// This Red-Black Tree holds the concordance. Words from the file
@@ -18,20 +17,22 @@ public class concordance {
 	// the word occurs in the file. The node contains values
 	// belonging to the wrapper class, Integer.
 
-	public static void main(String[] args) {
+	public concordance() {
 
 		openFiles(); // Open input and output files.
 
 		int lineNum = 1; // The number of the line in the input
-						 // file that is currently begin processed.
+							// file that is currently begin processed.
 
-		while (!in.eof()) {	// Run through the file until the end-of-file. 
-		// O(nlg(n)) -> run on each word in the text file, search the tree for the correct word.
-		// if present, insert lineNum. otherwise - create a new node and insert it into the tree.
-			
+		while (!in.eof()) { // Run through the file until the end-of-file.
+			// O(nlg(n)) -> run on each word in the text file, search the tree for the
+			// correct word.
+			// if present, insert lineNum. otherwise - create a new node and insert it into
+			// the tree.
+
 			String word = in.getAlpha(); // The next word from the file.
-			
-			while (in.peek() != '\0' && !Character.isLetter(in.peek())) { 
+
+			while (in.peek() != '\0' && !Character.isLetter(in.peek())) {
 				// Run through White-Space.
 				// Skip over non-letter characters, stopping when
 				// end-of-file ('\0') or a letter is seen. If the
@@ -58,9 +59,9 @@ public class concordance {
 			System.out.println("Output file might be missing or incomplete.");
 			System.exit(1);
 		}
-		System.out.println(index0.getSize() + " distinct words were found.");
+		System.out.println(index0.getSize() + " distinct words were found at the Red-Black Tree.");
 		long endTime = System.currentTimeMillis();
-		System.out.println("Time measure for Red-Black Tree EXAMPLE: " + (endTime - startTime) + "-Milli Second");
+		System.out.println("Time measure for Red-Black Tree EXAMPLE: " + (endTime - startTime) + "-Milli Second\n");
 	}
 
 	static void openFiles() {
@@ -70,12 +71,12 @@ public class concordance {
 		// If an error occurs while trying to open the files, then an
 		// error message is printed and the program will be terminated.
 		try {
-			in = new TextReader(new FileReader("inputText.txt"));
+			in = new TextReader(new FileReader("inputTextRBT.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		try {
-			out = new PrintWriter(new FileWriter("outputText.txt"));
+			out = new PrintWriter(new FileWriter("outputTextRBT.txt"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -88,11 +89,11 @@ public class concordance {
 		index0.insert(term, lineNum);
 	}
 
-	static void printConcordance() { // O(n) 
+	static void printConcordance() { // O(n)
 		index0.inorder(out);
 		out.close();
 	}
-	
+
 	@SuppressWarnings("rawtypes")
 	static class AlphabeticalOrder implements Comparator {
 		// Represents a Comparator that can be used for

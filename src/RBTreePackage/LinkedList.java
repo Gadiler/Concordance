@@ -8,7 +8,8 @@ public class LinkedList {
 	protected SinglyNode head, tail;
 	private int size = 0;
 
-	/* @param word - any LinkedList have word as data.
+	/*
+	 * @param word - any LinkedList have word as data.
 	 * 
 	 * @param head - reference to the first node at the list.
 	 * 
@@ -65,7 +66,7 @@ public class LinkedList {
 		if (head == null) {
 			head = new SinglyNode(line);
 			tail = head;
-		} else  {		// if (tail.line != line) -> terms of line repeat.
+		} else { // if (tail.line != line) -> terms of line repeat.
 			tail.setNext(new SinglyNode(line));
 			tail = tail.getNext();
 		}

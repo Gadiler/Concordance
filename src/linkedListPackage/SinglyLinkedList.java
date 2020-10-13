@@ -6,7 +6,7 @@ public class SinglyLinkedList {
 
 	protected String word;
 	protected Node head, tail;
-	protected SinglyLinkedList next;
+	public SinglyLinkedList next;
 
 	/* @param word - any SinglyLinkedList (-> SLL) have word as data.
 	 * 

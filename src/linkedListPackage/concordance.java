@@ -7,7 +7,7 @@ import RBTreePackage.TextReader;
 import java.io.*;
 
 public class concordance {
-	
+
 	static TextReader in; // An input stream for reading the input file.
 	static PrintWriter out; // Output stream for writing the output file.
 
@@ -21,7 +21,7 @@ public class concordance {
 	// the word occurs in the file. The node contains values
 	// belonging to the wrapper class, Integer.
 
-	public static void main(String[] args) {
+	public concordance() {
 
 		openFiles(); // Open input and output files.
 
@@ -60,9 +60,9 @@ public class concordance {
 			System.out.println("Output file might be missing or incomplete.");
 			System.exit(1);
 		}
-		System.out.println(size + " distinct words were found.");
+		System.out.println(size + " distinct words were found at the Linked List.");
 		long endTime = System.currentTimeMillis();
-		System.out.println("Time measure for Linked List EXAMPLE: " + (endTime - startTime) + "-Milli Second");
+		System.out.println("Time measure for Linked List EXAMPLE: " + (endTime - startTime) + "-Milli Second\n");
 	}
 
 	static void openFiles() {
@@ -72,12 +72,12 @@ public class concordance {
 		// If an error occurs while trying to open the files, then an
 		// error message is printed and the program will be terminated.
 		try {
-			in = new TextReader(new FileReader("inputText.txt"));
+			in = new TextReader(new FileReader("inputTextSLL.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		try {
-			out = new PrintWriter(new FileWriter("outputText.txt"));
+			out = new PrintWriter(new FileWriter("outputTextSLL.txt"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -93,16 +93,16 @@ public class concordance {
 			tempList = new SinglyLinkedList(term, lineNum);
 			index0.head = tempList;
 			size++;
-		}else {
+		} else {
 			while (tempList.next != null && tempList.next.getWord().compareToIgnoreCase(term) <= 0) {
 				tempList = tempList.getNext();
 			}
 			if (tempList.getWord().equalsIgnoreCase(term)) {
 				tempList.insert(lineNum);
-			}else if(tempList.getWord().compareToIgnoreCase(term) < 0){
+			} else if (tempList.getWord().compareToIgnoreCase(term) < 0) {
 				tempList.setNext(new SinglyLinkedList(term, lineNum));
 				size++;
-			}else {
+			} else {
 				index0.head = new SinglyLinkedList(term, lineNum);
 				index0.head.next = tempList;
 				size++;
@@ -112,12 +112,12 @@ public class concordance {
 
 	static void printConcordance() {
 		while (index0.head != null) {
-			index0.head.display(out);	
+			index0.head.display(out);
 			index0.head = index0.head.next;
 		}
 		out.close();
 	}
-	
+
 	@SuppressWarnings("rawtypes")
 	static class AlphabeticalOrder implements Comparator {
 		// Represents a Comparator that can be used for
@@ -132,15 +132,39 @@ public class concordance {
 			return str1.compareTo(str2); // Compare lower-case Strings.
 		}
 	}
-	
+
 	static class LinkedList {
 		SinglyLinkedList head, tail;
 		int size;
-		
+
 		public LinkedList() {
 			head = null;
 			tail = null;
 			size++;
+		}
+
+		public SinglyLinkedList insert(String term, int lineNum) {
+			SinglyLinkedList tempList = index0.head;
+			if (tempList == null) {
+				tempList = new SinglyLinkedList(term, lineNum);
+				index0.head = tempList;
+				size++;
+			} else {
+				while (tempList.next != null && tempList.next.getWord().compareToIgnoreCase(term) <= 0) {
+					tempList = tempList.getNext();
+				}
+				if (tempList.getWord().equalsIgnoreCase(term)) {
+					tempList.insert(lineNum);
+				} else if (tempList.getWord().compareToIgnoreCase(term) < 0) {
+					tempList.setNext(new SinglyLinkedList(term, lineNum));
+					size++;
+				} else {
+					index0.head = new SinglyLinkedList(term, lineNum);
+					index0.head.next = tempList;
+					size++;
+				}
+			}
+			return tempList;
 		}
 	}
 } // end class Concordance

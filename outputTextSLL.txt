@@ -1,0 +1,791 @@
+above 108
+access 84
+accessed 58
+accordingly 46
+actual 108
+actually 97, 142
+add 56
+added 20, 94, 94
+adding 94
+addition 30, 67, 139
+additional 8, 8, 56, 71
+address 99
+after 46, 67, 84, 107, 142
+afterwards 84
+algorithm 20, 20, 69, 142
+algorithms 25
+align 48
+all 12, 25, 25, 27, 34, 48, 56, 60, 60, 71, 97, 97, 101, 101, 103, 107, 107, 141, 141, 141, 142, 142, 142
+allow 27
+allowed 20
+allows 41, 52, 139
+almost 8
+along 6
+also 6, 67, 69, 86, 99, 105, 105, 142
+alternating 43
+alternatively 39
+Although 78
+always 33
+ambiguity 52
+amortized 78
+amount 25
+Analogy 45, 56
+analysis 33
+ancestors 39
+and 2, 4, 4, 6, 6, 12, 14, 14, 16, 18, 20, 25, 27, 41, 43, 43, 46, 46, 46, 46, 52, 52, 52, 54, 54, 56, 56, 58, 60, 62, 63, 63, 63, 65, 65, 65, 67, 69, 69, 69, 71, 71, 78, 78, 82, 82, 82, 84, 84, 84, 86, 87, 88, 89, 94, 94, 97, 101, 101, 101, 103, 103, 105, 105, 105, 105, 105, 138, 139, 139, 139, 139, 141, 141, 141, 141, 141, 141, 141, 142, 142, 142, 142
+Andersson 16, 20
+annotated 80
+Another 14, 65, 103
+any 8, 36, 39, 39, 43, 71, 97, 103, 107, 116, 133, 142
+anywhere 97
+appear 141
+appears 142
+Applications 62, 63, 63, 142
+applied 86
+applies 97
+applying 142
+approximately 2
+are 4, 6, 8, 20, 25, 34, 35, 48, 54, 54, 54, 54, 58, 60, 60, 60, 60, 65, 65, 67, 67, 69, 69, 69, 78, 78, 88, 97, 97, 97, 97, 101, 101, 103, 103, 105, 107, 108, 133, 142
+Arne 16
+around 84
+arrays 67
+article 84, 84
+assigned 89
+associative 67
+assume 108
+assumed 90
+assumptions 90
+asymmetric 142
+asymptotic 110
+atop 91
+attempt 58
+attribute 54
+authors 14
+available 14, 14
+average 60, 60
+AVL 65, 65, 65, 65, 142
+balance 18
+balanced 2, 12, 14, 18, 27, 41, 65, 141
+balancing 2, 6, 142
+based 63, 139
+Basis 121
+Bayer 12, 12
+became 12
+because 8, 14, 14, 54, 54, 58, 58, 78, 97, 97, 101, 105, 105, 141
+become 4, 52, 89
+becomes 56
+been 75, 105, 139
+before 46, 69
+begin 105
+beginning 86
+begins 94
+behind 69
+being 8, 54, 97, 105
+below 25, 80, 82, 105
+Ben 65, 80
+best 14, 60
+between 43, 46, 46, 65, 65, 88, 141
+big 94
+binary 2, 8, 12, 12, 14, 23, 27, 30, 37, 41, 56, 58, 58, 58, 60, 60, 78, 78, 94, 94, 97, 97, 97
+bit 2, 8, 8
+black 1, 2, 8, 14, 14, 20, 23, 25, 25, 25, 27, 30, 32, 33, 33, 34, 35, 36, 37, 37, 37, 37, 37, 39, 39, 39, 39, 39, 39, 39, 41, 41, 43, 43, 43, 43, 43, 46, 46, 46, 46, 48, 48, 48, 50, 52, 52, 52, 52, 52, 52, 52, 54, 54, 56, 56, 56, 56, 60, 60, 60, 63, 63, 63, 65, 67, 67, 69, 69, 69, 69, 71, 71, 71, 73, 75, 78, 78, 78, 78, 90, 90, 91, 91, 94, 94, 97, 97, 97, 101, 101, 101, 101, 101, 101, 103, 103, 103, 103, 103, 105, 105, 105, 105, 105, 105, 105, 105, 105, 111, 116, 116, 116, 128, 128, 133, 133, 133, 139, 139, 141, 141, 141, 141, 141, 141, 141, 141, 141, 142, 142, 142
+blocks 63
+blue 56, 56, 56, 56, 56, 56, 56, 56, 56, 89
+boolean 142
+border 89
+both 35, 46, 90, 101, 101, 101, 103, 103, 105, 105, 105, 141
+bottom 142, 142
+bound 41
+bounds 110
+break 103
+building 63
+bulk 138, 139
+but 6, 20, 20, 33, 56, 63, 84, 86, 88, 90, 101, 103, 105
+call 63, 82, 99, 99
+called 12, 71, 116
+can 4, 4, 8, 20, 25, 33, 37, 43, 46, 52, 52, 54, 54, 54, 56, 56, 58, 63, 65, 67, 71, 84, 84, 97, 101, 105, 107, 108, 133, 139, 139, 141, 141
+cannot 105, 105
+capacity 50
+care 18
+case 4, 12, 18, 41, 41, 54, 60, 60, 63, 63, 65, 65, 78, 86, 86, 88, 90, 97, 97, 103, 105, 105, 105, 141
+cases 8, 18, 20, 20, 65, 88, 107
+central 52
+changed 33
+changes 78
+child 25, 25, 46, 52, 54, 97, 97, 99, 99, 99, 99, 99, 99, 101, 101, 101, 101, 105, 105, 105, 105, 105, 105, 105, 105, 105, 107, 108, 128, 128, 141, 141
+children 20, 35, 37, 56, 58, 71, 71, 97, 97, 97, 97, 97, 97, 97, 97, 101, 101, 103, 105, 107, 128
+choose 99
+chosen 14
+Chris 18
+circle 91, 91
+citation 71
+classic 8
+cluster 48, 50, 52, 52, 52, 54, 54, 54, 54, 54, 56, 58, 58, 58
+clusters 56, 58, 60
+code 20, 20, 82, 82, 84, 84, 84, 107, 108, 108, 108
+colliding 75
+color 2, 8, 14, 14, 14, 54, 69, 71, 71, 78
+colored 56, 58, 58, 58, 58, 60, 65
+coloring 4, 94
+colors 8, 56, 56
+common 67
+compact 54, 58
+comparable 23
+compared 58, 91
+Completely 63
+complex 105
+complexity 75
+complicated 78
+computational 63
+computer 2, 23, 25
+consider 43
+considered 25, 97
+consists 37
+constant 39
+constrain 4
+constraint 37, 56
+constraints 41
+construct 67
+contain 8, 25, 46, 46, 94, 103
+contained 54
+containing 54, 141
+contains 52, 52, 52, 111
+continues 88
+convenience 108
+conversion 52
+copied 97
+copying 97
+Cormen 20
+corresponding 69, 71
+cost 8, 141, 142
+costly 54
+could 39, 103
+count 101, 105, 105
+counted 105
+counting 116
+create 141
+created 141
+creating 12, 48
+critical 41
+current 63, 86, 89, 89
+data 8, 12, 23, 25, 54, 62, 63, 63, 67, 69, 73
+default 18
+defined 39, 39, 56, 107, 139
+definition 97
+Definitions 113
+degree 71
+delete 16, 20, 78, 84, 97, 97, 139
+deleted 97, 99, 101, 101
+deletes 71
+deleting 41, 97, 97, 105, 107
+deletion 6, 63, 67, 69, 99
+deletions 2, 58, 139
+demonstrated 82
+denote 86, 87, 87, 87, 87, 99, 99
+denoting 142
+depending 128
+depth 39, 39, 48, 91
+derived 14
+descendant 36
+described 71
+description 25, 25, 73
+designed 4
+Despite 54
+details 82
+Diagram 85, 90, 90
+diagrams 89, 105, 107
+Dichromatic 14
+difference 94, 139, 141
+different 75, 101, 105
+directly 54
+discussion 99
+displaystyle 117, 125, 126, 126, 126, 126, 128, 128, 128, 128, 128, 128, 130, 135, 142
+does 8, 54, 63, 84, 84, 97, 99
+don 54, 54, 58
+done 84, 84
+double 141, 141
+draw 14, 142
+during 2, 71
+Each 2, 8, 32, 43, 46, 46, 52, 54, 54, 54, 56, 58, 67, 86, 88, 128, 128
+easy 107
+economical 54, 54
+effect 33, 97
+efficient 27, 41, 139
+efficiently 4
+either 32, 52, 71, 90, 90, 97, 97, 99, 105, 108, 128
+element 75, 97, 97, 139
+elements 27, 69, 75, 141
+eliminating 71
+encode 25
+enforce 41
+ensure 2
+entire 86
+epoll 63
+equally 97
+equivalence 48
+equivalent 46, 50, 52, 56, 56, 60, 60, 69
+even 69
+eventually 84
+Every 36, 37, 69, 78, 88, 101, 103, 107
+example 25, 37, 63, 80, 82, 82
+except 71
+execution 25
+existing 94
+explanations 80
+explicit 25, 25
+explicitly 84
+extra 2
+fact 25
+factor 50, 58, 58, 60
+factors 60
+Fair 63
+family 87
+farthest 41
+fast 73, 139
+faster 58, 58, 58
+fewer 97, 101
+figure 25, 25
+fill 50, 58, 58, 60, 60
+find 65, 82, 84, 97
+finding 41
+finished 84
+first 142
+fixed 141
+flip 71
+flipping 69
+following 30, 56, 108
+follows 141
+footprint 8
+for 14, 25, 37, 54, 54, 54, 54, 56, 58, 58, 58, 63, 63, 67, 69, 69, 71, 73, 78, 78, 84, 99, 105, 105, 105, 107, 107, 108, 142
+form 142
+found 80, 142, 142
+fragments 23
+Framework 14
+freedom 71
+frequently 58
+from 12, 14, 14, 25, 27, 27, 33, 36, 39, 39, 41, 41, 43, 52, 75, 78, 97, 103, 107, 116, 133, 142, 142
+function 18, 108, 141, 141
+functional 18, 67
+functions 82, 139
+general 52
+generic 142
+geometric 65
+geometry 63
+geq 135, 135, 135, 135
+get 133
+given 36, 103
+GNU 80
+goes 36
+grandparent 82, 87
+graphical 48, 48
+greater 91, 141, 142
+grouping 58
+guaranteed 43, 58
+guarantees 6, 63, 63
+Guibas 14, 14
+had 101, 105
+half 89, 89, 133
+halves 90
+hand 25, 107
+has 33, 43, 43, 52, 75, 94, 97, 97, 101, 105, 107, 111, 117, 123, 126, 126, 128, 128, 128, 128, 141, 142
+hashcodes 75
+HashMap 75
+have 37, 54, 54, 56, 65, 84, 97, 97, 97, 99, 105, 107, 128, 139, 141, 141
+having 27, 43, 97
+height 27, 39, 41, 41, 41, 60, 65, 65, 91, 105, 105, 111, 115, 116, 119, 123, 128, 133, 133, 136, 141, 141, 142
+heights 141
+helper 82, 139
+here 97, 97
+hierarchy 56
+highly 139
+his 12, 20, 20
+History 10
+hold 101
+horizontal 48, 58
+horizontally 48
+how 4, 18
+However 12, 25, 52, 54, 58, 78
+human 87
+hypothesis 128
+idea 16, 20
+identical 8
+ignoring 43
+immediate 78
+implementation 63, 71, 80, 139, 139
+implementations 80
+implemented 20, 20, 25, 139
+implied 90
+implies 126
+important 69
+imposed 30
+improvement 75
+improving 54
+include 84
+included 105
+includes 105
+increase 60
+increasing 60
+individuals 25
+induction 119
+Inductive 126, 128
+information 8, 8, 94
+input 141
+insert 16, 18, 20, 20, 20, 43, 78, 82, 84, 139
+inserting 41, 142
+insertion 6, 63, 65, 67, 69, 78, 78, 84, 86, 93, 94, 94, 108, 142
+insertions 2, 58, 139
+inserts 71
+inside 84
+instead 25, 25, 54, 75, 94
+intermediate 142
+internal 25, 97, 97, 111, 117, 126, 126, 128, 128, 131
+intersection 139
+into 97, 108, 142, 142
+introduce 69
+introduced 16, 71
+introductory 69
+invalid 105
+invalidate 141
+invariant 71, 141
+invented 12
+isometric 71
+isometry 71, 71
+issue 141
+its 8, 8, 18, 35, 36, 52, 73, 90, 94, 97, 97, 97, 99, 99, 99, 101, 103, 105, 105, 105, 105, 105
+Java 20, 75
+Join 139, 141, 141, 141, 141, 142
+junctions 58
+June 80
+just 12, 20, 20, 56, 69, 97, 101, 105
+kernels 63
+key 141, 142, 142
+keys 141, 141, 142
+kind 2
+know 54
+label 86, 88, 99
+labels 88
+large 58
+larger 56, 141, 142
+laser 14
+later 12, 20, 84
+leaf 12, 25, 25, 25, 25, 27, 37, 39, 41, 41, 43, 43, 48, 86, 94, 94, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 99, 99, 99, 101, 101, 101, 103, 105, 105, 105, 105, 105, 107, 107, 107, 107, 116, 133
+lean 71
+leaning 16, 20, 71
+least 27, 117, 126, 126, 128, 128, 133, 133
+leaves 25, 25, 25, 34, 39, 71, 94, 94, 101, 105, 108
+left 20, 27, 71, 71, 82, 89, 97, 105, 141, 141, 142, 142, 142
+leftrightarrow 135, 135, 135, 135
+Lemma 117, 119, 133, 133
+Leonidas 14
+leq 135, 135
+less 142
+leveraging 20
+libavl 80
+library 80
+like 20, 20, 25, 27, 37, 56, 97
+limiting 58
+lines 20, 20, 20
+LinkedList 75
+links 71
+Linux 63
+little 33
+LLRB 71
+locality 54
+locally 58
+log 6, 6, 27, 65, 67, 75, 78, 78, 111, 135, 135, 135, 135, 136, 142, 142
+logarithmic 133
+logic 69
+long 41
+longest 43
+looking 14
+lookup 139
+made 56, 71
+main 25
+maintain 54, 54
+maintained 12
+maintains 71
+make 18, 63
+makes 63, 69
+making 20, 20
+manner 94
+many 8, 25, 63, 69
+marginal 25
+matching 46, 46
+maximize 58
+maximizing 60
+maximum 50, 97
+may 25, 25, 25, 54, 78, 80, 82, 86, 141
+mean 65
+means 91
+measurements 65
+median 65
+memory 8, 8, 25, 25, 54
+merely 97
+merged 142
+minimum 50, 52, 58, 97
+moderate 58
+modification 78
+modified 4, 48, 75
+more 20, 20, 41, 52, 54, 54, 54, 56, 58, 65, 78, 139
+most 43, 56, 56, 67, 97, 97, 99, 141
+move 48, 97
+moves 71
+much 58
+multicolored 60, 60
+multiple 52, 58
+must 30, 71, 84, 97, 101, 101, 105, 123
+mutations 67
+nearest 41
+necessarily 33
+necessary 84
+need 25, 54, 56, 107
+needed 18
+needs 71
+new 4, 20, 84, 84, 94, 94, 105, 105, 105, 139, 141, 141, 141
+newly 89
+next 89
+NIL 25, 25, 34, 36, 43, 97
+node 2, 8, 8, 25, 25, 32, 35, 36, 37, 37, 39, 39, 39, 43, 46, 46, 46, 46, 46, 48, 52, 54, 54, 56, 56, 71, 82, 86, 86, 86, 87, 87, 88, 89, 89, 94, 94, 94, 97, 97, 97, 97, 97, 99, 99, 101, 101, 101, 101, 101, 101, 103, 103, 103, 105, 105, 105, 107, 108, 115, 117, 128, 141, 141, 141, 141
+nodes 6, 12, 20, 25, 25, 25, 25, 25, 25, 27, 36, 36, 37, 37, 39, 39, 43, 43, 43, 43, 43, 43, 48, 48, 54, 56, 56, 56, 56, 58, 58, 60, 60, 60, 71, 82, 86, 88, 89, 97, 97, 97, 97, 97, 97, 101, 103, 103, 105, 111, 116, 117, 126, 126, 128, 131, 133, 141, 142
+non 60, 97, 97, 97, 97, 97, 97, 99, 99, 101, 105, 107, 107
+normal 97
+not 6, 8, 12, 25, 25, 33, 54, 63, 69, 80, 84, 97, 107, 116
+Notably 60
+note 46, 84, 107
+notes 85
+nothing 142
+Now 25, 133
+null 25, 25, 54, 107, 107, 107, 108, 108, 123
+number 6, 12, 36, 39, 39, 39, 58, 60, 78, 103, 116
+numbered 91
+numbers 23
+objects 54, 108
+occur 58, 101, 105
+occurs 60, 60
+offer 63
+often 69
+Okasaki 18
+old 105
+omitted 33
+Once 97
+one 18, 43, 46, 48, 52, 52, 67, 91, 97, 97, 99, 101, 101, 105, 105
+only 8, 8, 18, 37, 37, 46, 52, 58, 60, 63, 78, 101, 105
+operating 25
+operation 18, 20
+operations 6, 16, 20, 41, 54, 69, 71, 77, 78, 78, 82, 138, 138, 139, 139, 139, 139, 139, 139
+optimizations 60
+optimized 73
+optional 46
+order 12, 25, 25, 27, 27, 45, 46, 50, 52, 54, 69, 97, 97, 107, 142
+orders 56
+ordinary 41
+organize 23
+original 20, 20, 73
+originally 20, 97
+other 8, 25, 52, 54, 60, 63, 80, 86, 89, 101, 105, 105, 105, 107, 141, 142
+otherwise 99, 141
+outlined 108
+over 135, 135, 135, 135
+own 94
+paper 12, 14
+parallelizable 139
+PARC 14
+parent 37, 48, 54, 71, 82, 87, 87, 101, 105, 105, 105
+part 73, 142
+particular 37
+particularly 67
+pass 101
+path 36, 39, 41, 41, 43, 43, 133, 142, 142, 142
+paths 12, 101, 103
+pens 14
+per 8, 50
+perfect 6, 37
+perfectly 12
+perform 25, 108
+performance 65, 65
+performed 4, 6
+performing 58
+persistent 67, 67
+Pfaff 65, 80
+pieces 23
+place 108
+plus 54
+point 25, 84, 141
+pointer 25, 84, 84
+pointers 25, 25, 46, 52, 54
+popular 12
+position 105
+possible 27, 43, 60, 60
+practice 69, 78
+predecessor 97
+preserved 103
+previous 67
+previously 71, 105
+printer 14
+problem 97, 97
+procedure 86
+produced 14, 52
+programming 67
+Proof 110, 119
+propagates 141
+properties 4, 4, 29, 78, 78, 97, 103, 103, 141, 142
+property 39, 41, 43, 43, 101, 101, 101, 101, 105, 107, 107, 133
+proportional 41
+proposed 20
+provide 63
+purely 18
+quick 78
+quote 71
+rather 54, 58, 97, 108
+ratios 65
+Read 78
+real 63
+realistic 65
+rearranged 4
+rearrangement 6
+rearranging 4
+recall 105
+recoloring 4, 6
+recursively 86
+Red 1, 2, 8, 14, 14, 14, 20, 20, 23, 25, 25, 25, 27, 30, 32, 33, 35, 37, 39, 41, 41, 43, 43, 43, 43, 46, 46, 46, 46, 48, 48, 48, 50, 52, 52, 52, 52, 52, 52, 54, 56, 56, 56, 56, 56, 56, 60, 63, 63, 63, 65, 67, 67, 69, 69, 69, 69, 71, 71, 71, 71, 71, 73, 75, 78, 78, 78, 78, 90, 90, 94, 94, 97, 97, 97, 101, 101, 101, 101, 103, 103, 105, 111, 128, 133, 139, 139, 139, 141, 141, 141, 141, 141, 141, 142, 142, 142
+reduced 20
+reduces 97
+reducing 60
+reference 54, 54
+references 25, 54, 54
+regular 97, 97
+relabel 105
+related 62
+relative 89
+rely 139
+remain 78, 107, 107
+remainder 99
+remains 2
+removal 65, 78, 82, 96
+removing 103
+repaint 103
+repainted 4
+replace 101, 141
+replacement 86
+ReplaceNode 108
+replaces 94
+replacing 105
+represent 88
+representation 48, 48, 108
+represented 54, 108
+representing 2
+represents 90, 91
+require 41, 78
+requirements 30
+requires 8, 67, 78, 141
+resolved 71
+respectively 128
+response 14
+restore 4
+Restoring 78, 141
+restriction 20
+result 41, 78
+results 27, 27, 75
+retain 67
+return 141
+returns 142
+right 16, 27, 82, 89, 97, 105, 141, 141, 141, 142, 142
+rigidly 65
+rings 89, 89
+Robert 14
+role 25
+roles 88
+root 12, 27, 27, 33, 33, 39, 39, 41, 41, 43, 54, 84, 84, 84, 84, 84, 84, 84, 84, 133, 133, 133, 135, 135, 135, 135, 135, 135, 136, 139, 141, 141, 141, 141, 141, 142
+rooted 115, 117
+rotate 82
+RotateLeft 84, 84
+RotateRight 84, 84
+rotating 84
+rotation 141
+rotations 58, 58, 69, 78
+roughly 41
+row 141
+Rudolf 12
+rule 33, 33
+runs 65
+same 12, 36, 46, 48, 54, 56, 58, 58, 60, 69, 88, 90, 103, 141
+sample 84, 84, 84
+satisfied 30, 107, 107
+save 25, 25
+Scheduler 63
+schemes 142
+science 2, 23
+search 2, 8, 12, 27, 27, 27, 30, 41, 63, 65, 78, 78, 94, 94, 97, 97, 97
+searches 73
+searching 6, 75
+section 108, 108
+Sedgewick 14, 20, 20, 20, 20, 71, 71
+see 25, 43, 48, 86, 107
+selected 99
+self 2
+sensitive 63
+sentinel 25, 25, 25, 97
+separate 58
+sequence 71
+Set 138, 139, 139, 139, 139, 141, 141, 141, 141
+sets 67
+several 58, 139
+shifted 88
+shortening 20
+shortest 43
+show 133
+showed 18, 20
+shown 90, 97
+sibling 82, 87, 87, 105, 105
+side 101, 101, 105, 105, 142
+sides 52, 101, 105
+significantly 20
+similar 46, 94
+simple 78, 103
+simpler 71
+simplified 20
+simplify 16, 25
+simply 101, 101, 103, 141
+Since 33, 41, 128, 133
+single 25, 139
+slot 54
+slots 54, 54
+small 78
+smaller 141, 142, 142
+solution 97
+solved 97
+some 25, 88, 142
+sometimes 33
+space 54, 67
+special 12, 23, 78, 142
+specific 8
+specifically 73
+specified 97
+spine 141
+split 71, 139, 142, 142, 142, 142
+splits 58
+standard 94
+states 14
+step 89, 126
+steps 108
+still 52, 101
+store 54, 75
+stored 8, 52, 54, 54, 54
+stores 2
+storing 58
+structurally 50, 56, 60
+structure 12, 46, 65, 73
+structures 62, 63, 63, 67
+subset 65
+substitutes 108
+subtree 91, 91, 91, 97, 97, 105, 105, 115, 116, 117, 141, 141
+subtrees 142
+successive 56
+successor 97
+such 4, 23, 41, 46, 63, 75, 75, 126, 126, 128, 142
+suitable 80
+supporting 65
+Suppose 56, 141
+symmetric 12, 14, 141
+system 63
+take 18
+tango 73
+target 89
+Terminology 22
+test 65
+text 23, 135, 135, 135, 135, 135, 135
+texts 69
+than 41, 52, 54, 58, 78, 97, 97, 108, 141, 141, 141, 142, 142, 142, 142
+that 2, 4, 4, 12, 14, 20, 20, 20, 25, 27, 37, 39, 41, 48, 54, 56, 56, 56, 71, 75, 84, 89, 91, 91, 94, 97, 97, 99, 105, 107, 107, 107, 108, 126, 126, 126, 133, 141
+their 27, 48, 78
+them 12, 14, 60, 63, 63
+then 25, 35, 50, 52, 56, 56, 84, 94, 97, 101, 105, 105, 123, 139, 141
+theoretical 41
+there 8, 25, 56, 69
+therefore 27, 43, 99, 123, 136
+These 12, 25, 25, 41, 103, 139, 139
+they 12, 12, 48, 58, 58, 67, 84
+third 60
+thirds 60
+this 4, 20, 25, 25, 25, 33, 33, 41, 43, 48, 52, 54, 63, 69, 69, 71, 75, 84, 84, 86, 91, 97, 99, 101, 105, 105, 105, 108, 133, 139, 141, 141, 141, 142, 142
+those 65, 78, 90, 142, 142
+though 52, 69
+three 78, 141
+through 36, 101, 101
+throughout 88
+thus 65, 101, 105, 105, 142
+time 6, 6, 25, 27, 27, 41, 54, 63, 63, 63, 63, 63, 67, 75
+times 65, 78
+together 48
+tool 69
+top 142
+total 60
+Tracking 8
+transformations 107
+traversal 27, 27
+tree 1, 2, 2, 2, 4, 4, 4, 6, 6, 8, 8, 8, 12, 12, 14, 14, 16, 20, 23, 23, 25, 27, 27, 30, 30, 37, 37, 39, 41, 41, 43, 46, 46, 46, 46, 46, 48, 48, 48, 50, 50, 52, 52, 52, 52, 52, 52, 54, 54, 54, 54, 54, 56, 56, 56, 58, 58, 60, 60, 60, 60, 65, 69, 71, 71, 71, 73, 73, 75, 78, 78, 78, 78, 78, 94, 94, 94, 97, 97, 97, 101, 105, 105, 107, 108, 111, 133, 133, 141, 142, 142, 142, 142, 142, 142
+trees 12, 12, 12, 12, 12, 14, 14, 20, 20, 20, 20, 25, 25, 27, 27, 41, 41, 41, 45, 52, 54, 56, 56, 58, 58, 58, 58, 58, 60, 63, 63, 63, 65, 65, 65, 65, 65, 67, 67, 69, 69, 69, 69, 69, 69, 69, 69, 71, 71, 71, 71, 73, 78, 87, 97, 97, 139, 139, 141, 141, 141, 142, 142
+triangle 91, 91
+twice 41
+two 8, 20, 43, 52, 52, 56, 60, 65, 71, 78, 94, 97, 97, 97, 97, 97, 101, 105, 105, 105, 128, 139, 141, 141, 141, 142
+type 23, 52, 73
+unbalanced 4, 18, 20, 20
+uncle 82, 87
+uncolored 8
+understanding 25, 69
+union 139
+unique 25
+unlike 41, 97
+unspecified 71, 91
+until 141
+updated 84
+updating 84, 84
+upon 82
+upper 41
+upward 84
+use 99, 105
+used 2, 20, 23, 54, 54, 63, 63, 67, 69, 75, 78, 86
+uses 63, 73
+using 75, 84, 133, 142
+valuable 63, 63, 67
+value 46, 46, 46, 52, 52, 52, 54, 97, 97, 97, 142
+values 41, 46, 50, 50, 52, 52, 54, 54, 54, 54, 54, 56, 58, 142, 142
+vector 54, 54, 54
+verified 107
+versa 33
+version 67, 71
+versions 67
+very 78, 94
+vice 33
+view 25
+violate 78, 97, 101
+violation 105
+volumes 58, 58
+walking 84
+want 97
+was 12, 14, 14, 14, 20, 71, 105
+WAVL 65
+way 48
+well 107, 107, 141
+were 12, 105
+When 4, 60, 60, 84, 84, 84, 97, 101, 103, 105, 105
+where 6, 46, 58, 67, 97, 97, 108
+whereas 94
+whether 128
+which 25, 39, 54, 54, 63, 67, 71, 78, 97, 97, 97, 97, 99, 101, 105, 105, 105, 105, 111, 128, 141
+while 14
+White 90
+whole 54
+whose 20, 56
+why 43, 69
+will 46, 52, 52, 52, 56, 56, 56, 56, 58, 58, 58, 58, 82, 86, 87, 87, 87, 87, 89, 89, 99, 99, 101, 105, 105, 107, 108, 141, 142, 142
+with 6, 12, 46, 48, 50, 50, 56, 56, 56, 58, 65, 69, 71, 75, 80, 82, 97, 97, 97, 97, 99, 101, 105, 108, 108, 139, 141, 141, 141, 141, 142
+within 58, 88
+without 91
+working 14
+works 108
+worst 4, 41, 41, 60, 63, 63, 65, 65
+would 101, 101, 105, 105, 107
+Xerox 14
+you 54, 54, 54, 56, 56
+zero 97, 123

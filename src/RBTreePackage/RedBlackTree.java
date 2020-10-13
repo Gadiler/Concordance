@@ -4,21 +4,25 @@ import java.io.PrintWriter;
 import java.util.Comparator;
 
 class RBTreeNode {
-	
+
 	LinkedList data;
-	RBTreeNode parent, left, right;	
+	RBTreeNode parent, left, right;
 	int color = 0;
-	
-	/* @param data - LinkedList of the data, contain the word and list of the lines reference.
+
+	/*
+	 * @param data - LinkedList of the data, contain the word and list of the lines
+	 * reference.
 	 * 
-	 * @param parent - RBTNode reference for the parent of the child by the algorithm of the Red-Black Tree.
+	 * @param parent - RBTNode reference for the parent of the child by the
+	 * algorithm of the Red-Black Tree.
 	 * 
-	 * @param left\right - RBTNode reference for the child of the parent, 
-	 * if newNode.data greater than or equal the root.data -> insert tight, otherwise insert left. 
+	 * @param left\right - RBTNode reference for the child of the parent, if
+	 * newNode.data greater than or equal the root.data -> insert tight, otherwise
+	 * insert left.
 	 * 
 	 * @ color - any node have color. 1 = Red, 0 = Black.
 	 */
-	
+
 	public RBTreeNode() {
 		data = null;
 		parent = null;
@@ -28,9 +32,9 @@ class RBTreeNode {
 }
 
 public class RedBlackTree {
-	
+
 	private Comparator<String> comparator;
-	
+
 	private RBTreeNode root;
 	private RBTreeNode TNULL;
 	private int size = 0;
@@ -43,11 +47,11 @@ public class RedBlackTree {
 			inOrderHelperRec(node.right, out);
 		}
 	}
-	
+
 	public int compare(String key, String key2) {
 		return (comparator == null ? ((Comparable<String>) key).compareTo(key2) : comparator.compare(key, key2));
 	}
-	
+
 	// Search the tree recursively
 	@SuppressWarnings("unused")
 	private RBTreeNode searchTreeHelperRec(RBTreeNode node, String key) {
@@ -55,17 +59,17 @@ public class RedBlackTree {
 			return node;
 		}
 
-		if (compare(key ,node.data.getWord()) < 0) {
+		if (compare(key, node.data.getWord()) < 0) {
 			return searchTreeHelperRec(node.left, key);
 		}
 		return searchTreeHelperRec(node.right, key);
 	}
-	
-	// Search the tree 
+
+	// Search the tree
 	public RBTreeNode searchTreeHelper(RBTreeNode node, String key) {
 		RBTreeNode temp = node;
 		while (temp != TNULL && !key.equalsIgnoreCase(temp.data.getWord())) {
-			if (compare(key ,temp.data.getWord()) < 0) {
+			if (compare(key, temp.data.getWord()) < 0) {
 				temp = temp.left;
 			} else {
 				temp = temp.right;
@@ -73,7 +77,7 @@ public class RedBlackTree {
 		}
 		return temp;
 	}
-	
+
 	// Balance the node after insertion
 	private void fixInsert(RBTreeNode k) {
 		RBTreeNode u;
@@ -126,7 +130,7 @@ public class RedBlackTree {
 		TNULL.right = null;
 		root = TNULL;
 	}
-	
+
 	public RedBlackTree(Comparator<String> comparator) {
 		this.comparator = comparator;
 	}
@@ -176,15 +180,15 @@ public class RedBlackTree {
 	}
 
 	public void insert(String key, int line) {
-		
+
 		RBTreeNode z = searchTree(key);
-		
-		// If NOT null then add new line into the LinedList. 
+
+		// If NOT null then add new line into the LinedList.
 		// Otherwise create new RBTNode and insert by the algorithm.
-		if (z != null) { 
+		if (z != null) {
 			z.data.insertSinglyNode(line);
-		}else {
-			
+		} else {
+
 			RBTreeNode tempNode = new RBTreeNode();
 			SinglyNode tempSN = new SinglyNode(line);
 			LinkedList tempList = new LinkedList(key, tempSN, tempSN, 1);
@@ -193,25 +197,25 @@ public class RedBlackTree {
 			tempNode.left = TNULL;
 			tempNode.right = TNULL;
 			tempNode.color = 1;
-			
+
 			size++;
-			
+
 			RBTreeNode y = null;
 			RBTreeNode x = this.root;
-			
-			while (x != TNULL) { 	// Run till the right place for the new RBTNode.
+
+			while (x != TNULL) { // Run till the right place for the new RBTNode.
 				y = x;
-				if (compare(key ,x.data.getWord()) < 0) {
+				if (compare(key, x.data.getWord()) < 0) {
 					x = x.left;
 				} else {
 					x = x.right;
 				}
 			}
 
-			tempNode.parent = y;	// save the parent of the leaf.
-			if (y == null) { 		// in case the tree is empty.
+			tempNode.parent = y; // save the parent of the leaf.
+			if (y == null) { // in case the tree is empty.
 				root = tempNode;
-			} else if (compare(key ,y.data.getWord()) < 0) { 
+			} else if (compare(key, y.data.getWord()) < 0) {
 				y.left = tempNode;
 			} else {
 				y.right = tempNode;
