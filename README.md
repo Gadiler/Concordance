@@ -15,7 +15,7 @@ For changing the text input, edit the file 'input.txt'.
 The high-level logic of the program is based on the use of a filter reader
 class to parse the text, and store words in a Red-Black Tree along with other details.
 
-The structure, as we can see in the [Red-black Tree diagram](src/RBTreePackage/Red-Black Tree diagram.pdf) file, is  Red-Black Tree containing LinkedList of line-number.
+The structure, as we can see in the [Red-black Tree diagram](https://github.com/Gadiler/Concordance/blob/main/src/RBTreePackage/Red-Black%20Tree%20diagram.pdf) file, is  Red-Black Tree containing LinkedList of line-number.
 Any RBTNode containing - LinkedList of data and 3 RBTNode - 'parent', 'left' and 'right' child.
 Any LinkedList containing - 'word' and SinglyLinkedList - 'head' and 'tail'.
 
