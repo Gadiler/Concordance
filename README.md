@@ -39,6 +39,7 @@ Concordance() {
 }
 
 insert( String, int ) {
+
 	temp = searchWord( word );  		// If null - not exist, create new Node with the word and insert.
 	
 	if( temp == null ) {				// else - add the lineNum to the tail of the LinkedList. {O(lg(n))}
