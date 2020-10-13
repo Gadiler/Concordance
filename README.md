@@ -42,7 +42,7 @@ Any RBTNode containing:
 * Filling the tree takes O(nlg(n)) 
 	* O(n) to run through all the words in the text file.
 	* O(lg(n)) to store \ search \ other operation of RB-Tree.
-##### n' is the number of words in the text.
+##### 'n' is the number of words in the text.
 
 
 
@@ -61,7 +61,7 @@ Any SLL containing:
 * Filling the tree takes O(n^2) 
 	* O(n) to run through all the words in the text file.
 	* O(n) to store \ search on SL-List.
-	* **'n' is the number of words in the text.**
+##### 'n' is the number of words in the text.
 	
 ---	
 ## Pseudo code:
