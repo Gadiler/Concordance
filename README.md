@@ -15,7 +15,7 @@ For changing the text input, edit the file 'input.txt'.
 The high-level logic of the program is based on the use of a filter reader
 class to parse the text, and store words in a Red-Black Tree along with other details.
 
-The structure, as we can see in the "Red-black Tree diagram" file, is  Red-Black Tree containing LinkedList of line-number.
+The structure, as we can see in the [Red-black Tree diagram](src/RBTreePackage/Red-Black Tree diagram.pdf) file, is  Red-Black Tree containing LinkedList of line-number.
 Any RBTNode containing - LinkedList of data and 3 RBTNode - 'parent', 'left' and 'right' child.
 Any LinkedList containing - 'word' and SinglyLinkedList - 'head' and 'tail'.
 
@@ -35,7 +35,6 @@ and O(lg(n)) to store \ search \ other operation of RB-Tree.
 			insert( word, lineNumber );	// O(lg(n))
 	} 						// End of loop.
 	display();					// O(n)
-  
 }
 
 #### insert( String, int ) {
@@ -50,8 +49,7 @@ and O(lg(n)) to store \ search \ other operation of RB-Tree.
 		}		
 		temp = root.next;
 	}
-	fixInsert(); 					// Fix the insertion by the Red-Black Tree algorithm.
-  
+	fixInsert(); 					// Fix the insertion by the Red-Black Tree algorithm. 
 }
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------	
