@@ -1,4 +1,8 @@
 # Concordance
+**_Gadi Engelsman_**
+
+**Course: Data Structures.**
+
 A "concordance" is an alphabetical list of the words present in a text with a count of how
 often every word appears and quotes where each word appears in the text, to [read more.](https://en.wikipedia.org/wiki/Bible_concordance)
 
