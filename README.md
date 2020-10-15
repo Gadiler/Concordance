@@ -60,13 +60,14 @@ Any RBTNode containing:
 * Filling the tree takes O(nlg(n)) 
 	* O(n) to run through all the words in the text file.
 	* O(lg(n)) to store \ search \ other operation of RB-Tree.
-##### 'n' - number of words in the text.
+	
+**'n' - number of words in the text.**
 
 ---
 
 ### SLL Structure:
 The data structure, as we can see in the [Singly-Linked-List diagram](https://github.com/Gadiler/Concordance/blob/main/src/linkedListPackage/Linked%20List%20diagram.pdf) file,
-is Singly Linked-List contining Linked-List of line-number.
+is Singly Linked-List containing Linked-List of line-number.
 
 Any SLL containing:
 * `fileName` - input source
@@ -83,8 +84,9 @@ Any SLL containing:
 #### SLL Complexity:
 * Filling the tree takes O(n^2) 
 	* O(n) to run through all the words in the text file.
-	* O(n) to store \ search on SL-List.
-##### 'n' - number of words in the text.
+	* O(n) to store \ search on SLL.
+	
+**'n' - number of words in the text.**
 	
 ---
 
@@ -109,7 +111,7 @@ Insert( String, int ) {
 	}else {
 		while ( !rightPlace ) {			// Run till the right place for the new RBTNode \ SLLNode.
 			root = root.next;		// If (RBTree && greater than), next = right. otherwise next = left.
-		}					// If (SLList && greater than), next = next.next. otherwiae - inaert.
+		}					// If (SLList && greater than), next = next.next. otherwiae - Insert.
 		temp = root.next;
 	}
 	fixInsert(); 					// Fix the insertion by the Red-Black Tree algorithm. -> only at the RBTree data structure.
@@ -140,8 +142,7 @@ Insert( String, int ) {
 - code {1 time} 76
 - Complexity {2 times} 45, 69
 - Concordance {4 times} 2, 2, 19, 79
-- containing {8 times} 5, 32, 35, 38, 41, 57, 61, 65
-- contining {1 time} 54
+- containing {9 times} 5, 32, 35, 38, 41, 54, 57, 61, 65
 - count {1 time} 2
 - create {2 times} 15, 89
 - creating {1 time} 16
@@ -173,11 +174,10 @@ Insert( String, int ) {
 - high {1 time} 27
 - his {1 time} 16
 - how {1 time} 3
-- inaert {1 time} 97
 - inner {5 times} 16, 37, 40, 60, 64
 - input {3 times} 21, 24, 57
 - inputText {1 time} 24
-- insert {3 times} 82, 87, 91
+- insert {4 times} 82, 87, 91, 97
 - insertion {1 time} 99
 - Instructions {1 time} 20
 - int {1 time} 89
